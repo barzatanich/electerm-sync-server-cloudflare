@@ -7,6 +7,13 @@
     "JWT_USERS": "electerm-main"
   },
 
+  "routes": [
+    {
+      "pattern": "electerm-sync.rovoit.com",
+      "custom_domain": true
+    }
+  ],
+
   "d1_databases": [
     {
       "binding": "DB",
